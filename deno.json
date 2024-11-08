@@ -1,0 +1,8 @@
+{
+  "name": "@byzanteam/jet-flow-kit-js",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {},
+  "license": "MIT",
+  "imports": {}
+}
