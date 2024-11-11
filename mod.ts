@@ -1,3 +1,9 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
+import type { workflow } from "./examples/traffic_light/workflow/main.ts";
+import { workflows } from "./workflow.ts";
+
+await workflows.startEnactment<typeof workflow>(
+  "traffic_light",
+  {},
+  { version: 1 },
+);
+
